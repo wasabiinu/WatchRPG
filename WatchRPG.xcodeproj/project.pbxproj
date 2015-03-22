@@ -13,6 +13,13 @@
 		208C35321ABF0EB9008F71CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208C35311ABF0EB9008F71CC /* Images.xcassets */; };
 		208C35351ABF0EB9008F71CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208C35331ABF0EB9008F71CC /* LaunchScreen.xib */; };
 		208C35411ABF0EBA008F71CC /* WatchRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C35401ABF0EBA008F71CC /* WatchRPGTests.swift */; };
+		208C35541ABF0ED4008F71CC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C35531ABF0ED4008F71CC /* InterfaceController.swift */; };
+		208C35561ABF0ED4008F71CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C35551ABF0ED4008F71CC /* NotificationController.swift */; };
+		208C35581ABF0ED4008F71CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208C35571ABF0ED4008F71CC /* Images.xcassets */; };
+		208C355C1ABF0ED4008F71CC /* WatchRPG WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 208C355B1ABF0ED4008F71CC /* WatchRPG WatchKit App.app */; };
+		208C35641ABF0ED4008F71CC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208C35621ABF0ED4008F71CC /* Interface.storyboard */; };
+		208C35661ABF0ED4008F71CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208C35651ABF0ED4008F71CC /* Images.xcassets */; };
+		208C35691ABF0ED4008F71CC /* WatchRPG WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 208C354E1ABF0ED4008F71CC /* WatchRPG WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 208C35241ABF0EB9008F71CC;
 			remoteInfo = WatchRPG;
 		};
+		208C355D1ABF0ED4008F71CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208C351D1ABF0EB9008F71CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208C355A1ABF0ED4008F71CC;
+			remoteInfo = "WatchRPG WatchKit App";
+		};
+		208C35671ABF0ED4008F71CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208C351D1ABF0EB9008F71CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208C354D1ABF0ED4008F71CC;
+			remoteInfo = "WatchRPG WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		208C35701ABF0ED4008F71CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				208C35691ABF0ED4008F71CC /* WatchRPG WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		208C35251ABF0EB9008F71CC /* WatchRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,16 @@
 		208C353A1ABF0EB9008F71CC /* WatchRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		208C353F1ABF0EBA008F71CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		208C35401ABF0EBA008F71CC /* WatchRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRPGTests.swift; sourceTree = "<group>"; };
+		208C354E1ABF0ED4008F71CC /* WatchRPG WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchRPG WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C35511ABF0ED4008F71CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208C35521ABF0ED4008F71CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		208C35531ABF0ED4008F71CC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		208C35551ABF0ED4008F71CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		208C35571ABF0ED4008F71CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		208C355B1ABF0ED4008F71CC /* WatchRPG WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchRPG WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C35611ABF0ED4008F71CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208C35631ABF0ED4008F71CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		208C35651ABF0ED4008F71CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +98,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		208C354B1ABF0ED4008F71CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		208C351C1ABF0EB9008F71CC = {
 			isa = PBXGroup;
 			children = (
+				208C35711ABF0F0F008F71CC /* 素材 */,
 				208C35271ABF0EB9008F71CC /* WatchRPG */,
 				208C353D1ABF0EBA008F71CC /* WatchRPGTests */,
+				208C354F1ABF0ED4008F71CC /* WatchRPG WatchKit Extension */,
+				208C355F1ABF0ED4008F71CC /* WatchRPG WatchKit App */,
 				208C35261ABF0EB9008F71CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +125,8 @@
 			children = (
 				208C35251ABF0EB9008F71CC /* WatchRPG.app */,
 				208C353A1ABF0EB9008F71CC /* WatchRPGTests.xctest */,
+				208C354E1ABF0ED4008F71CC /* WatchRPG WatchKit Extension.appex */,
+				208C355B1ABF0ED4008F71CC /* WatchRPG WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +169,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		208C354F1ABF0ED4008F71CC /* WatchRPG WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				208C35531ABF0ED4008F71CC /* InterfaceController.swift */,
+				208C35551ABF0ED4008F71CC /* NotificationController.swift */,
+				208C35571ABF0ED4008F71CC /* Images.xcassets */,
+				208C35501ABF0ED4008F71CC /* Supporting Files */,
+			);
+			path = "WatchRPG WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		208C35501ABF0ED4008F71CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208C35511ABF0ED4008F71CC /* Info.plist */,
+				208C35521ABF0ED4008F71CC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		208C355F1ABF0ED4008F71CC /* WatchRPG WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				208C35621ABF0ED4008F71CC /* Interface.storyboard */,
+				208C35651ABF0ED4008F71CC /* Images.xcassets */,
+				208C35601ABF0ED4008F71CC /* Supporting Files */,
+			);
+			path = "WatchRPG WatchKit App";
+			sourceTree = "<group>";
+		};
+		208C35601ABF0ED4008F71CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208C35611ABF0ED4008F71CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		208C35711ABF0F0F008F71CC /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "素材";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +224,12 @@
 				208C35211ABF0EB9008F71CC /* Sources */,
 				208C35221ABF0EB9008F71CC /* Frameworks */,
 				208C35231ABF0EB9008F71CC /* Resources */,
+				208C35701ABF0ED4008F71CC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				208C35681ABF0ED4008F71CC /* PBXTargetDependency */,
 			);
 			name = WatchRPG;
 			productName = WatchRPG;
@@ -150,6 +254,39 @@
 			productReference = 208C353A1ABF0EB9008F71CC /* WatchRPGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		208C354D1ABF0ED4008F71CC /* WatchRPG WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208C356D1ABF0ED4008F71CC /* Build configuration list for PBXNativeTarget "WatchRPG WatchKit Extension" */;
+			buildPhases = (
+				208C354A1ABF0ED4008F71CC /* Sources */,
+				208C354B1ABF0ED4008F71CC /* Frameworks */,
+				208C354C1ABF0ED4008F71CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208C355E1ABF0ED4008F71CC /* PBXTargetDependency */,
+			);
+			name = "WatchRPG WatchKit Extension";
+			productName = "WatchRPG WatchKit Extension";
+			productReference = 208C354E1ABF0ED4008F71CC /* WatchRPG WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		208C355A1ABF0ED4008F71CC /* WatchRPG WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208C356A1ABF0ED4008F71CC /* Build configuration list for PBXNativeTarget "WatchRPG WatchKit App" */;
+			buildPhases = (
+				208C35591ABF0ED4008F71CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchRPG WatchKit App";
+			productName = "WatchRPG WatchKit App";
+			productReference = 208C355B1ABF0ED4008F71CC /* WatchRPG WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +302,12 @@
 					208C35391ABF0EB9008F71CC = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 208C35241ABF0EB9008F71CC;
+					};
+					208C354D1ABF0ED4008F71CC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					208C355A1ABF0ED4008F71CC = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +326,8 @@
 			targets = (
 				208C35241ABF0EB9008F71CC /* WatchRPG */,
 				208C35391ABF0EB9008F71CC /* WatchRPGTests */,
+				208C354D1ABF0ED4008F71CC /* WatchRPG WatchKit Extension */,
+				208C355A1ABF0ED4008F71CC /* WatchRPG WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +347,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C354C1ABF0ED4008F71CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C355C1ABF0ED4008F71CC /* WatchRPG WatchKit App.app in Resources */,
+				208C35581ABF0ED4008F71CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C35591ABF0ED4008F71CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C35641ABF0ED4008F71CC /* Interface.storyboard in Resources */,
+				208C35661ABF0ED4008F71CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +388,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		208C354A1ABF0ED4008F71CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C35561ABF0ED4008F71CC /* NotificationController.swift in Sources */,
+				208C35541ABF0ED4008F71CC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +404,16 @@
 			isa = PBXTargetDependency;
 			target = 208C35241ABF0EB9008F71CC /* WatchRPG */;
 			targetProxy = 208C353B1ABF0EB9008F71CC /* PBXContainerItemProxy */;
+		};
+		208C355E1ABF0ED4008F71CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208C355A1ABF0ED4008F71CC /* WatchRPG WatchKit App */;
+			targetProxy = 208C355D1ABF0ED4008F71CC /* PBXContainerItemProxy */;
+		};
+		208C35681ABF0ED4008F71CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208C354D1ABF0ED4008F71CC /* WatchRPG WatchKit Extension */;
+			targetProxy = 208C35671ABF0ED4008F71CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +432,14 @@
 				208C35341ABF0EB9008F71CC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		208C35621ABF0ED4008F71CC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208C35631ABF0ED4008F71CC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchRPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchRPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +578,60 @@
 			};
 			name = Release;
 		};
+		208C356B1ABF0ED4008F71CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchRPG_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchRPG WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		208C356C1ABF0ED4008F71CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchRPG_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchRPG WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		208C356E1ABF0ED4008F71CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchRPG WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		208C356F1ABF0ED4008F71CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchRPG WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +657,22 @@
 			buildConfigurations = (
 				208C35481ABF0EBA008F71CC /* Debug */,
 				208C35491ABF0EBA008F71CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		208C356A1ABF0ED4008F71CC /* Build configuration list for PBXNativeTarget "WatchRPG WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C356B1ABF0ED4008F71CC /* Debug */,
+				208C356C1ABF0ED4008F71CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		208C356D1ABF0ED4008F71CC /* Build configuration list for PBXNativeTarget "WatchRPG WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C356E1ABF0ED4008F71CC /* Debug */,
+				208C356F1ABF0ED4008F71CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
