@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208C352B1ABF0EB9008F71CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C352A1ABF0EB9008F71CC /* AppDelegate.swift */; };
+		208C352D1ABF0EB9008F71CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C352C1ABF0EB9008F71CC /* ViewController.swift */; };
+		208C35301ABF0EB9008F71CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208C352E1ABF0EB9008F71CC /* Main.storyboard */; };
+		208C35321ABF0EB9008F71CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208C35311ABF0EB9008F71CC /* Images.xcassets */; };
+		208C35351ABF0EB9008F71CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208C35331ABF0EB9008F71CC /* LaunchScreen.xib */; };
+		208C35411ABF0EBA008F71CC /* WatchRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208C35401ABF0EBA008F71CC /* WatchRPGTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		208C353B1ABF0EB9008F71CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208C351D1ABF0EB9008F71CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208C35241ABF0EB9008F71CC;
+			remoteInfo = WatchRPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		208C35251ABF0EB9008F71CC /* WatchRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C35291ABF0EB9008F71CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208C352A1ABF0EB9008F71CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		208C352C1ABF0EB9008F71CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		208C352F1ABF0EB9008F71CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		208C35311ABF0EB9008F71CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		208C35341ABF0EB9008F71CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		208C353A1ABF0EB9008F71CC /* WatchRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C353F1ABF0EBA008F71CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208C35401ABF0EBA008F71CC /* WatchRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRPGTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208C35221ABF0EB9008F71CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C35371ABF0EB9008F71CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208C351C1ABF0EB9008F71CC = {
+			isa = PBXGroup;
+			children = (
+				208C35271ABF0EB9008F71CC /* WatchRPG */,
+				208C353D1ABF0EBA008F71CC /* WatchRPGTests */,
+				208C35261ABF0EB9008F71CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		208C35261ABF0EB9008F71CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208C35251ABF0EB9008F71CC /* WatchRPG.app */,
+				208C353A1ABF0EB9008F71CC /* WatchRPGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		208C35271ABF0EB9008F71CC /* WatchRPG */ = {
+			isa = PBXGroup;
+			children = (
+				208C352A1ABF0EB9008F71CC /* AppDelegate.swift */,
+				208C352C1ABF0EB9008F71CC /* ViewController.swift */,
+				208C352E1ABF0EB9008F71CC /* Main.storyboard */,
+				208C35311ABF0EB9008F71CC /* Images.xcassets */,
+				208C35331ABF0EB9008F71CC /* LaunchScreen.xib */,
+				208C35281ABF0EB9008F71CC /* Supporting Files */,
+			);
+			path = WatchRPG;
+			sourceTree = "<group>";
+		};
+		208C35281ABF0EB9008F71CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208C35291ABF0EB9008F71CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		208C353D1ABF0EBA008F71CC /* WatchRPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				208C35401ABF0EBA008F71CC /* WatchRPGTests.swift */,
+				208C353E1ABF0EBA008F71CC /* Supporting Files */,
+			);
+			path = WatchRPGTests;
+			sourceTree = "<group>";
+		};
+		208C353E1ABF0EBA008F71CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208C353F1ABF0EBA008F71CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208C35241ABF0EB9008F71CC /* WatchRPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208C35441ABF0EBA008F71CC /* Build configuration list for PBXNativeTarget "WatchRPG" */;
+			buildPhases = (
+				208C35211ABF0EB9008F71CC /* Sources */,
+				208C35221ABF0EB9008F71CC /* Frameworks */,
+				208C35231ABF0EB9008F71CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchRPG;
+			productName = WatchRPG;
+			productReference = 208C35251ABF0EB9008F71CC /* WatchRPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		208C35391ABF0EB9008F71CC /* WatchRPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208C35471ABF0EBA008F71CC /* Build configuration list for PBXNativeTarget "WatchRPGTests" */;
+			buildPhases = (
+				208C35361ABF0EB9008F71CC /* Sources */,
+				208C35371ABF0EB9008F71CC /* Frameworks */,
+				208C35381ABF0EB9008F71CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208C353C1ABF0EB9008F71CC /* PBXTargetDependency */,
+			);
+			name = WatchRPGTests;
+			productName = WatchRPGTests;
+			productReference = 208C353A1ABF0EB9008F71CC /* WatchRPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		208C351D1ABF0EB9008F71CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yu Yokoyama";
+				TargetAttributes = {
+					208C35241ABF0EB9008F71CC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					208C35391ABF0EB9008F71CC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 208C35241ABF0EB9008F71CC;
+					};
+				};
+			};
+			buildConfigurationList = 208C35201ABF0EB9008F71CC /* Build configuration list for PBXProject "WatchRPG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 208C351C1ABF0EB9008F71CC;
+			productRefGroup = 208C35261ABF0EB9008F71CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208C35241ABF0EB9008F71CC /* WatchRPG */,
+				208C35391ABF0EB9008F71CC /* WatchRPGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208C35231ABF0EB9008F71CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C35301ABF0EB9008F71CC /* Main.storyboard in Resources */,
+				208C35351ABF0EB9008F71CC /* LaunchScreen.xib in Resources */,
+				208C35321ABF0EB9008F71CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C35381ABF0EB9008F71CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208C35211ABF0EB9008F71CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C352D1ABF0EB9008F71CC /* ViewController.swift in Sources */,
+				208C352B1ABF0EB9008F71CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C35361ABF0EB9008F71CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C35411ABF0EBA008F71CC /* WatchRPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208C353C1ABF0EB9008F71CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208C35241ABF0EB9008F71CC /* WatchRPG */;
+			targetProxy = 208C353B1ABF0EB9008F71CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		208C352E1ABF0EB9008F71CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208C352F1ABF0EB9008F71CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		208C35331ABF0EB9008F71CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208C35341ABF0EB9008F71CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		208C35421ABF0EBA008F71CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		208C35431ABF0EBA008F71CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		208C35451ABF0EBA008F71CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		208C35461ABF0EBA008F71CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		208C35481ABF0EBA008F71CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchRPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchRPG.app/WatchRPG";
+			};
+			name = Debug;
+		};
+		208C35491ABF0EBA008F71CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchRPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchRPG.app/WatchRPG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208C35201ABF0EB9008F71CC /* Build configuration list for PBXProject "WatchRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C35421ABF0EBA008F71CC /* Debug */,
+				208C35431ABF0EBA008F71CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208C35441ABF0EBA008F71CC /* Build configuration list for PBXNativeTarget "WatchRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C35451ABF0EBA008F71CC /* Debug */,
+				208C35461ABF0EBA008F71CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		208C35471ABF0EBA008F71CC /* Build configuration list for PBXNativeTarget "WatchRPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C35481ABF0EBA008F71CC /* Debug */,
+				208C35491ABF0EBA008F71CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 208C351D1ABF0EB9008F71CC /* Project object */;
+}
